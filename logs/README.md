@@ -1,4 +1,4 @@
-```markdown
+
 # MNIST Digit Classification - The Impact of Feature Scaling
 
 This repository demonstrates building, training, and evaluating simple Artificial Neural Networks (ANNs) on the MNIST handwritten digit dataset using TensorFlow and Keras.
@@ -25,8 +25,3 @@ When input features have high ranges (like $0$ to $255$), the gradients during b
 
 ## 📈 Visualizations
 Inside the notebook, we generate confusion matrices to analyze which digits the model misclassified the most (e.g., distinguishing between $2$ and $8$, or $4$ and $9$).
-
-```python
-# Scaled input evaluation
-model.evaluate(X_test_flattened, y_test)
-```
